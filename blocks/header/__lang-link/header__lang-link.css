@@ -1,0 +1,14 @@
+.header__lang-link {
+    border: 1px solid red;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    align-self: flex-end;
+    margin-right: 48px;
+}
+
+.header__lang-link:last-of-type {
+    margin-right: 0;
+    text-decoration: none;
+}
