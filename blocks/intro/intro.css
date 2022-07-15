@@ -1,0 +1,7 @@
+.intro {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 92px 442px 0 148px;
+    align-items: flex-start;
+}
