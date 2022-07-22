@@ -1,4 +1,4 @@
-.place__area {
+.places__area {
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-template-areas: "title website"
@@ -8,12 +8,12 @@
     margin: 0 0 80px 0;
 }
 
-.place__area:last-of-type {
+.places__area:last-of-type {
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__area {
+  .places__area {
     grid-template-columns: 440px 1fr;
     grid-template-areas: "title website"
                         "image paragraph";
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__area {
+  .places__area {
     grid-template-columns: 340px 1fr;
     grid-template-areas: "title website"
                         "image paragraph";
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__area {
+  .places__area {
     grid-template-columns: 1fr;
     grid-template-areas:
         "title"
