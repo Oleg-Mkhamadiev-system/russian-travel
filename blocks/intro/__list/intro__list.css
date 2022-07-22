@@ -1,6 +1,5 @@
 .intro__list {
-    border: 1px solid red;
-    max-width: 690px;
+    width: 100%;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;

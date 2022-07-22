@@ -1,5 +1,4 @@
 .lead__caption {
-    border: 1px solid red;
     font-size: 10px;
     line-height: 14px;
     font-weight: 400;
@@ -8,4 +7,10 @@
     color: #fff;
     align-self: flex-start;
     margin: 8px 0 0 0;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin: 8px 16px 0;
+  }
 }

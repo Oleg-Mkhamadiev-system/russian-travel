@@ -1,7 +1,47 @@
 .place__area {
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 460px 1fr;
+    grid-template-areas: "title website"
+                         "image paragraph";
     column-gap: 40px;
     row-gap: 48px;
+    margin: 0 0 80px 0;
+}
+
+.place__area:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__area {
+    grid-template-columns: 440px 1fr;
+    grid-template-areas: "title website"
+                        "image paragraph";
+    column-gap: 32px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__area {
+    grid-template-columns: 340px 1fr;
+    grid-template-areas: "title website"
+                        "image paragraph";
+    column-gap: 28px;
+    row-gap: 48px;
+    margin: 0 0 73px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__area {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "title"
+        "website"
+        "image"
+        "paragraph";
+    row-gap: 32px;
+    margin-bottom: 50px;
+  }
 }
