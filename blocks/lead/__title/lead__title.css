@@ -1,5 +1,4 @@
 .lead__title {
-    -webkit-font-smoothing: antialiased;
     width: 100%;
     line-height: 100px;
     font-size: 96px;
@@ -8,6 +7,14 @@
     color: #fff;
     margin: 0 auto 0 auto;
     white-space: pre-line;
+}
+
+@media screen and (max-width: 706px) {
+  .lead__title {
+    width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }
 
 @media screen and (max-width: 320px) {

@@ -33,6 +33,19 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .places__area {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "title"
+        "website"
+        "image"
+        "paragraph";
+    row-gap: 32px;
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__area {
     grid-template-columns: 1fr;

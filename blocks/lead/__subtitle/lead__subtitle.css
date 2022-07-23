@@ -8,9 +8,17 @@
     white-space: pre-line;
 }
 
+@media screen and (max-width: 706px) {
+  .lead__subtitle {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    max-width: 288px;
+    width: 100%;
     font-size: 16px;
     line-height: 20px;
   }
