@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 782px) {
   .places__area {
     grid-template-columns: 340px 1fr;
     grid-template-areas: "title website"

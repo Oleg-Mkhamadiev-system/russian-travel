@@ -12,15 +12,7 @@
 
 @media screen and (max-width: 640px) {
   .cover__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-    white-space: pre-line;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__title {
+    width: 100%;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;

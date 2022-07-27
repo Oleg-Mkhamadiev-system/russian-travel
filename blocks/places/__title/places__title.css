@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 782px) {
   .places__title {
     grid-area: title;
     font-size: 42px;
