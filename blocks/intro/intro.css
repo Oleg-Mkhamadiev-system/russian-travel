@@ -1,8 +1,8 @@
 .intro {
-    display: flex;
-    flex-direction: column;
-    padding: 92px 442px 0 148px;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 442px 0 148px;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 979px) {
   .intro {
     padding: 88px 24px 0 24px;
   }

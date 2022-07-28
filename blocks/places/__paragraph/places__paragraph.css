@@ -1,14 +1,14 @@
 .places__paragraph {
-    margin: 0 0 26px;
-    grid-area: paragraph;
-    font-size: 18px;
-    line-height: 29.34px;
-    font-weight: 400;
-    width: 100%;
+  margin: 0 0 26px;
+  grid-area: paragraph;
+  font-size: 18px;
+  line-height: 29.34px;
+  font-weight: 400;
+  width: 100%;
 }
 
 .places__paragraph:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,4 +28,3 @@
     margin: 0 0 25px;
   }
 }
-

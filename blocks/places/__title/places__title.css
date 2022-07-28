@@ -1,11 +1,11 @@
 .places__title {
   -webkit-font-smoothing: antialiased;
   grid-area: title;
-    font-size: 72px;
-    line-height: 76px;
-    font-weight: 900;
-    width: 100%;
-    margin: 0;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  width: 100%;
+  margin: 0;
 }
 
 @media screen and (max-width: 782px) {
@@ -16,7 +16,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 641px) {
   .places__title {
     grid-area: title;
     font-size: 32px;
