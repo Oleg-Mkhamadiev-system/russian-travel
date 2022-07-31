@@ -11,17 +11,8 @@
 
 @media screen and (max-width: 706px) {
   .lead__title {
-    width: 100%;
     font-size: 40px;
     line-height: 44px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__title {
-    width: 100%;
     max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
   }
 }

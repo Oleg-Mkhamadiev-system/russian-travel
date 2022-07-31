@@ -6,22 +6,20 @@
   font-weight: 900;
   width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 782px) {
   .places__title {
-    grid-area: title;
     font-size: 42px;
     line-height: 46px;
-    width: 100%;
   }
 }
 @media screen and (max-width: 641px) {
   .places__title {
-    grid-area: title;
     font-size: 32px;
     line-height: 35px;
-    width: 100%;
-    margin: 0 16px;
+    max-width: 288px;
+    margin: 0 0 0 16px;
   }
 }
