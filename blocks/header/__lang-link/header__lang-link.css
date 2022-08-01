@@ -3,8 +3,12 @@
   line-height: 28px;
   font-weight: 400;
   color: #fff;
-  margin: 0;
+  margin-right: 18px;
   text-decoration: none;
+}
+
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 .header__lang-link:hover {
